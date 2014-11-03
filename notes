@@ -1,0 +1,236 @@
+Förklara för labbassistenten vilka tolkningar av meningen de två olika träden representerar.
+Det är de två olika definitionerna av vp som ger upphov till de två olika trädstrukturerna
+Efter np -> pron -> hon delas det upp i:
+vp --> v,np.
+vp --> v,np,pp.
+
+Testa sedan med meningen hon målade en tavla med en pensel i garaget, och förklara de olika träden och deras tolkningar för labbassistenten.
+De olika tolkningarna av vp get upphov till skillnaden efter hon.
+         |
+         s
+         |
+  +--------------+
+  |              |
+  |             vp
+  |              |
+  |       +--------------+
+  |       |              |
+  |       |             np
+  |       |              |
+  |       |     +-----+------------+
+  |       |     |     |            |
+  |       |     |     |           pp
+  |       |     |     |            |
+  |       |     |     |     +-------------+
+  |       |     |     |     |             |
+  |       |     |     |     |            np
+  |       |     |     |     |             |
+  |       |     |     |     |     +------+---------+
+  |       |     |     |     |     |      |         |
+  |       |     |     |     |     |      |        pp
+  |       |     |     |     |     |      |         |
+  |       |     |     |     |     |      |     +-------+
+  |       |     |     |     |     |      |     |       |
+ np       |     |     |     |     |      |     |      np
+  |       |     |     |     |     |      |     |       |
+  |       |     |     |     |     |      |     |       |
+ pron     v    det    n    prep  det     n    prep     n
+  |       |     |     |     |     |      |     |       |
+  |       |     |     |     |     |      |     |       |
+ hon   målade  en   tavla  med   en   pensel   i    garaget
+
+             |
+            s
+            |
+  +-------------------+
+  |                   |
+  |                  vp
+  |                   |
+  |       +--------+---------------+
+  |       |        |               |
+  |       |       np              pp
+  |       |        |               |
+  |       |        |        +-------------+
+  |       |        |        |             |
+  |       |        |        |            np
+  |       |        |        |             |
+  |       |        |        |     +------+---------+
+  |       |        |        |     |      |         |
+  |       |        |        |     |      |        pp
+  |       |        |        |     |      |         |
+  |       |        |        |     |      |     +-------+
+  |       |        |        |     |      |     |       |
+ np       |        |        |     |      |     |      np
+  |       |     +-----+     |     |      |     |       |
+  |       |     |     |     |     |      |     |       |
+ pron     v    det    n    prep  det     n    prep     n
+  |       |     |     |     |     |      |     |       |
+  |       |     |     |     |     |      |     |       |
+ hon   målade  en   tavla  med   en   pensel   i    garaget
+
+                |
+                s
+                |
+  +---------------------------+
+  |                           |
+  |                          vp
+  |                           |
+  |       +-------------+--------------------------+
+  |       |             |                          |
+  |       |            np                         pp
+  |       |             |                          |
+  |       |     +-----+---------+                  |
+  |       |     |     |         |                  |
+  |       |     |     |        pp                  |
+  |       |     |     |         |                  |
+  |       |     |     |     +--------+             |
+  |       |     |     |     |        |         +-------+
+  |       |     |     |     |       np         |       |
+ np       |     |     |     |        |         |      np
+  |       |     |     |     |     +------+     |       |
+  |       |     |     |     |     |      |     |       |
+ pron     v    det    n    prep  det     n    prep     n
+  |       |     |     |     |     |      |     |       |
+  |       |     |     |     |     |      |     |       |
+ hon   målade  en   tavla  med   en   pensel   i    garaget
+
+Testa sedan med meningen hon målade en tavla med en pensel i garaget bakom huset, och förklara de olika träden och deras tolkningar för labbassistenten.
+         |
+         s
+         |
+  +--------------+
+  |              |
+  |             vp
+  |              |
+  |       +--------------+
+  |       |              |
+  |       |             np
+  |       |              |
+  |       |     +-----+------------+
+  |       |     |     |            |
+  |       |     |     |           pp
+  |       |     |     |            |
+  |       |     |     |     +--------------+
+  |       |     |     |     |              |
+  |       |     |     |     |             np
+  |       |     |     |     |              |
+  |       |     |     |     |     +------+-----------+
+  |       |     |     |     |     |      |           |
+  |       |     |     |     |     |      |          pp
+  |       |     |     |     |     |      |           |
+  |       |     |     |     |     |      |     +------------+
+  |       |     |     |     |     |      |     |            |
+  |       |     |     |     |     |      |     |           np
+  |       |     |     |     |     |      |     |            |
+  |       |     |     |     |     |      |     |       +----------+
+  |       |     |     |     |     |      |     |       |          |
+  |       |     |     |     |     |      |     |       |         pp
+  |       |     |     |     |     |      |     |       |          |
+  |       |     |     |     |     |      |     |       |       +------+
+  |       |     |     |     |     |      |     |       |       |      |
+ np       |     |     |     |     |      |     |       |       |     np
+  |       |     |     |     |     |      |     |       |       |      |
+  |       |     |     |     |     |      |     |       |       |      |
+ pron     v    det    n    prep  det     n    prep     n     prep     n
+  |       |     |     |     |     |      |     |       |       |      |
+  |       |     |     |     |     |      |     |       |       |      |
+ hon   målade  en   tavla  med   en   pensel   i    garaget  bakom  huset
+
+             |
+            s
+            |
+  +-------------------+
+  |                   |
+  |                  vp
+  |                   |
+  |       +--------+---------------+
+  |       |        |               |
+  |       |       np              pp
+  |       |        |               |
+  |       |        |        +--------------+
+  |       |        |        |              |
+  |       |        |        |             np
+  |       |        |        |              |
+  |       |        |        |     +------+-----------+
+  |       |        |        |     |      |           |
+  |       |        |        |     |      |          pp
+  |       |        |        |     |      |           |
+  |       |        |        |     |      |     +------------+
+  |       |        |        |     |      |     |            |
+  |       |        |        |     |      |     |           np
+  |       |        |        |     |      |     |            |
+  |       |        |        |     |      |     |       +----------+
+  |       |        |        |     |      |     |       |          |
+  |       |        |        |     |      |     |       |         pp
+  |       |        |        |     |      |     |       |          |
+  |       |        |        |     |      |     |       |       +------+
+  |       |        |        |     |      |     |       |       |      |
+ np       |        |        |     |      |     |       |       |     np
+  |       |     +-----+     |     |      |     |       |       |      |
+  |       |     |     |     |     |      |     |       |       |      |
+ pron     v    det    n    prep  det     n    prep     n     prep     n
+  |       |     |     |     |     |      |     |       |       |      |
+  |       |     |     |     |     |      |     |       |       |      |
+ hon   målade  en   tavla  med   en   pensel   i    garaget  bakom  huset
+
+                 |
+                s
+                |
+  +----------------------------+
+  |                            |
+  |                           vp
+  |                            |
+  |       +-------------+----------------------------+
+  |       |             |                            |
+  |       |            np                           pp
+  |       |             |                            |
+  |       |             |                      +------------+
+  |       |             |                      |            |
+  |       |             |                      |           np
+  |       |     +-----+---------+              |            |
+  |       |     |     |         |              |       +----------+
+  |       |     |     |        pp              |       |          |
+  |       |     |     |         |              |       |         pp
+  |       |     |     |     +--------+         |       |          |
+  |       |     |     |     |        |         |       |       +------+
+  |       |     |     |     |       np         |       |       |      |
+ np       |     |     |     |        |         |       |       |     np
+  |       |     |     |     |     +------+     |       |       |      |
+  |       |     |     |     |     |      |     |       |       |      |
+ pron     v    det    n    prep  det     n    prep     n     prep     n
+  |       |     |     |     |     |      |     |       |       |      |
+  |       |     |     |     |     |      |     |       |       |      |
+ hon   målade  en   tavla  med   en   pensel   i    garaget  bakom  huset
+
+                    |
+                    s
+                    |
+  +-----------------------------------+
+  |                                   |
+  |                                  vp
+  |                                   |
+  |       +--------------+----------------------------------------+
+  |       |              |                                        |
+  |       |             np                                       pp
+  |       |              |                                        |
+  |       |     +-----+------------+                              |
+  |       |     |     |            |                              |
+  |       |     |     |           pp                              |
+  |       |     |     |            |                              |
+  |       |     |     |     +-------------+                       |
+  |       |     |     |     |             |                       |
+  |       |     |     |     |            np                       |
+  |       |     |     |     |             |                       |
+  |       |     |     |     |     +------+---------+              |
+  |       |     |     |     |     |      |         |              |
+  |       |     |     |     |     |      |        pp              |
+  |       |     |     |     |     |      |         |              |
+  |       |     |     |     |     |      |     +-------+       +------+
+  |       |     |     |     |     |      |     |       |       |      |
+ np       |     |     |     |     |      |     |      np       |     np
+  |       |     |     |     |     |      |     |       |       |      |
+  |       |     |     |     |     |      |     |       |       |      |
+ pron     v    det    n    prep  det     n    prep     n     prep     n
+  |       |     |     |     |     |      |     |       |       |      |
+  |       |     |     |     |     |      |     |       |       |      |
+ hon   målade  en   tavla  med   en   pensel   i    garaget  bakom  huset
